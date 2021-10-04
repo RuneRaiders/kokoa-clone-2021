@@ -1,0 +1,42 @@
+.settings__setting {
+    padding: 20px 0px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__setting i {
+    margin-right: 20px;
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.settings__setting-column {
+    display: flex;
+    align-items: center;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.8;
+    margin-right: 20px;
+}
+
+.settings-division {
+    margin: 20px 0px;
+    border-top: var(--main-border);
+}
+
+.settings__setting-new {
+    background-color: tomato;
+    color: white;
+    padding: 5px 6px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 10px;
+}

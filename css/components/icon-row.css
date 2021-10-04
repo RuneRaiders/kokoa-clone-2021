@@ -16,3 +16,15 @@
 .icons-row__icon span {
     margin-top: 15px;
 }
+
+.icons-row__dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 360px;
+}
